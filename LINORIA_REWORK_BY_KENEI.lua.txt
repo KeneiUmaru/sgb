@@ -1,3 +1,6 @@
+if game.CoreGui:FindFirstChild("Linoria") then
+    game.CoreGui:FindFirstChild("Linoria"):Destroy()
+end
 local InputService = game:GetService('UserInputService');
 local TextService = game:GetService('TextService');
 local TweenService = game:GetService('TweenService');
@@ -8,9 +11,6 @@ local Mouse = LocalPlayer:GetMouse();
 
 local ProtectGui = protectgui or (syn and syn.protect_gui) or (function() end);
 
-if game.CoreGui:FindFirstChild("Linoria") then
-    game.CoreGui:FindFirstChild("Linoria"):Destroy()
-end
 
 local ScreenGui = Instance.new('ScreenGui');
 ProtectGui(ScreenGui);
