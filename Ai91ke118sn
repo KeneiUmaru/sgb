@@ -1,0 +1,2 @@
+local Key = {"{818631},{297481}"};
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KeneiUmaru/MakimaHub/main/Load.lua',true))();
